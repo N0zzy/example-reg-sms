@@ -61,7 +61,7 @@ class CheckController extends Controller
         }
 
 
-        return response()->json($result, 200, [], JSON_UNESCAPED_UNICODE);
+        return response()->json($result[0], 200, [], JSON_UNESCAPED_UNICODE);
 
     }
 

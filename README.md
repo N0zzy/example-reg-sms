@@ -1,12 +1,12 @@
 # API
+```
 1) форма входа
-GET
-http://reg-sms.ru/reg
+GET http://reg-sms.ru/reg
 
-Response in Form
-{
-	_token
-}
+Response in Form  
+{  
+    _token  
+}  
 
 
 2) запрос на регистрацию
@@ -15,11 +15,13 @@ http://reg-sms.ru/reg/request
 
 Request 
 {
-	_token
-	name
-	mail
-	phone
-	inn
+
+    _token
+    name
+    mail
+    phone
+    inn
+  
 }
 
 Response
@@ -30,9 +32,9 @@ Response
 }
 
 Error Response {
-	error
-	text
-	xxxx
+    error
+    text
+    xxxx
 }
 
 3) проверка 
@@ -40,8 +42,8 @@ POST
 http://reg-sms.ru/api/check/company
 Request 
 {
-	_token
-	inn
+    _token
+    inn
 }
 
 Response
@@ -56,9 +58,9 @@ POST
 http://reg-sms.ru/api/check/personal
 Request 
 {
-	_token
+    _token
     name
-	mail
+    mail
 }
 
 Response
@@ -69,3 +71,4 @@ Response
         "id": ...
     }
 }
+```

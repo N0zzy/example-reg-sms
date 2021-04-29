@@ -16,11 +16,11 @@ final class SMS
     /**
      * @var string
      */
-    private $email = 'fan83@inbox.ru'; //Ваш логин|email
+    private $email = 'your_mail'; //Ваш логин|email
     /**
      * @var string
      */
-    private $api_key = '4MXVFg5QBHwUic8G2AKQc4gpdG'; //Ваш api_key можно получить по адресу https://smsaero.ru/cabinet/settings/apikey/
+    private $api_key = 'your_key'; //Ваш api_key можно получить по адресу https://smsaero.ru/cabinet/settings/apikey/
     /**
      * @var string
      */
